@@ -1,0 +1,46 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #FFDD99;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .introduction {
+      background-color: #FFEBC2;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .skills {
+      margin-top: 20px;
+      padding: 10px;
+    }
+
+    .skills li {
+      border-bottom: 1px solid #FFF1D6;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+
+    .contact {
+      background-color: #FFCF70;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    /* Media Queries for Responsive Design */
+    @media (max-width: 768px) {
+      .header,
+      .introduction,
+      .skills,
+      .contact {
+        padding: 10px;
+      }
+      .skills li {
+        margin-bottom: 3px;
+      }
+    }
+  
